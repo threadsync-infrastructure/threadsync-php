@@ -13,8 +13,10 @@ Official PHP SDK for the [ThreadSync API](https://threadsync.io). Sync data betw
 
 ## Installation
 
+> **Preview**: SDKs are in preview and installed from GitHub. Packagist packages will be available at GA.
+
 ```bash
-composer require threadsync/threadsync-php
+composer require threadsync/threadsync-php:dev-main --repository='{"type":"vcs","url":"https://github.com/threadsync-infrastructure/threadsync-php"}'
 ```
 
 ## Quick Start
